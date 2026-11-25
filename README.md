@@ -2,7 +2,7 @@
 
 # How To Use Sensor Kit In Wearable 
 
-This project is a compact, developer-friendly showcase of HarmonyOS NEXT SensorKit and vibration (haptics) on wearables. It auto-detects which sensors your device actually exposes, requests and explains the required permissions, and streams live readings with units, timestamps, and sampling rates. A built-in haptics playground lets you trigger system patterns and custom sequences, so you can prototype on-wrist feedback and validate UX quickly. Perfect for demos, device bring-up, and debugging sensor availability across models.
+This project is a compact, developer-friendly showcase of HarmonyOS SensorKit and vibration (haptics) on wearables. It auto-detects which sensors your device actually exposes, requests and explains the required permissions, and streams live readings with units, timestamps, and sampling rates. A built-in haptics playground lets you trigger system patterns and custom sequences, so you can prototype on-wrist feedback and validate UX quickly. Perfect for demos, device bring-up, and debugging sensor availability across models.
 
 # Preview
 
@@ -13,7 +13,7 @@ This project is a compact, developer-friendly showcase of HarmonyOS NEXT SensorK
 </div>
   
 # Use Cases
-A user raises their HarmonyOS NEXT smartwatch, opens a live sensor dashboard that auto-lists available hardware, taps to start accelerometer and heart-rate streams, and gets a crisp confirm buzz while real-time values roll in—permissions handled inline, no phone required.
+A user raises their HarmonyOS smartwatch, opens a live sensor dashboard that auto-lists available hardware, taps to start accelerometer and heart-rate streams, and gets a crisp confirm buzz while real-time values roll in—permissions handled inline, no phone required.
 
 # Technology
 
@@ -51,7 +51,7 @@ entry/src/main/ets/
 
 # Constraints and Restrictions
 - **IDE**: DevEco Studio (≥ v5.1.0)
-- **SDK**: HarmonyOS NEXT API Version 16+
+- **SDK**: HarmonyOS API Version 16+
 - **Device**: Huawei Watch (e.g., Watch 5)
 - **Permissions**:  'ohos.permission.ACCELEROMETER',
   'ohos.permission.ACTIVITY_MOTION',
